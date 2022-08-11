@@ -51,4 +51,15 @@ class ConverterTests: XCTestCase {
         // Then
         XCTAssertEqual(celsius,37.777777, accuracy: 0.000001)
     }
+    
+    func test122FahrenTo50Celcious() {
+        //Given
+        let input1 = 122.0
+        
+        //when
+        let output1 = sut.convertToCelsius(fahrenheit: input1)
+        
+        //Then
+        XCTAssertEqual(output1, 50, accuracy: 0.000001)
+    }
 }
