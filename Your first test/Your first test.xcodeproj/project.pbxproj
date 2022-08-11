@@ -16,6 +16,8 @@
 		EAC539AE28A25A7500366599 /* Your_first_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC539AD28A25A7500366599 /* Your_first_testTests.swift */; };
 		EAC539B928A25A7500366599 /* Your_first_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC539B828A25A7500366599 /* Your_first_testUITests.swift */; };
 		EAC539CB28A25AB000366599 /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC539CA28A25AB000366599 /* Hater.swift */; };
+		EAC539D028A4CCE500366599 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC539CF28A4CCE500366599 /* Converter.swift */; };
+		EAC539D528A4CD1900366599 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC539D428A4CD1900366599 /* ConverterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EAC539B828A25A7500366599 /* Your_first_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Your_first_testUITests.swift; sourceTree = "<group>"; };
 		EAC539BA28A25A7500366599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAC539CA28A25AB000366599 /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
+		EAC539CF28A4CCE500366599 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		EAC539D428A4CD1900366599 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				EAC539A128A25A7500366599 /* LaunchScreen.storyboard */,
 				EAC539A428A25A7500366599 /* Info.plist */,
 				EAC539CA28A25AB000366599 /* Hater.swift */,
+				EAC539CF28A4CCE500366599 /* Converter.swift */,
 			);
 			path = "Your first test";
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 		EAC539AC28A25A7500366599 /* Your first testTests */ = {
 			isa = PBXGroup;
 			children = (
+				EAC539D428A4CD1900366599 /* ConverterTests.swift */,
 				EAC539AD28A25A7500366599 /* Your_first_testTests.swift */,
 				EAC539AF28A25A7500366599 /* Info.plist */,
 			);
@@ -265,6 +271,7 @@
 				EAC5399728A25A7300366599 /* AppDelegate.swift in Sources */,
 				EAC539CB28A25AB000366599 /* Hater.swift in Sources */,
 				EAC5399928A25A7300366599 /* SceneDelegate.swift in Sources */,
+				EAC539D028A4CCE500366599 /* Converter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC539D528A4CD1900366599 /* ConverterTests.swift in Sources */,
 				EAC539AE28A25A7500366599 /* Your_first_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
