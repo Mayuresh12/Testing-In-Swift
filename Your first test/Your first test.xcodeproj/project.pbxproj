@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA50A1DF28BB372000DED630 /* CreateTestUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50A1DE28BB372000DED630 /* CreateTestUserTests.swift */; };
+		EA50A1E428BB385C00DED630 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA50A1E328BB385C00DED630 /* User.swift */; };
 		EAC5399728A25A7300366599 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5399628A25A7300366599 /* AppDelegate.swift */; };
 		EAC5399928A25A7300366599 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5399828A25A7300366599 /* SceneDelegate.swift */; };
 		EAC5399B28A25A7300366599 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC5399A28A25A7300366599 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA50A1DE28BB372000DED630 /* CreateTestUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTestUserTests.swift; sourceTree = "<group>"; };
+		EA50A1E328BB385C00DED630 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EAC5399328A25A7300366599 /* Your first test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your first test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC5399628A25A7300366599 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAC5399828A25A7300366599 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 				EAC539A428A25A7500366599 /* Info.plist */,
 				EAC539CA28A25AB000366599 /* Hater.swift */,
 				EAC539CF28A4CCE500366599 /* Converter.swift */,
+				EA50A1E328BB385C00DED630 /* User.swift */,
 			);
 			path = "Your first test";
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 				EAC539D428A4CD1900366599 /* ConverterTests.swift */,
 				EAC539AD28A25A7500366599 /* Your_first_testTests.swift */,
 				EAC539AF28A25A7500366599 /* Info.plist */,
+				EA50A1DE28BB372000DED630 /* CreateTestUserTests.swift */,
 			);
 			path = "Your first testTests";
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 			files = (
 				EAC5399B28A25A7300366599 /* ViewController.swift in Sources */,
 				EAC5399728A25A7300366599 /* AppDelegate.swift in Sources */,
+				EA50A1E428BB385C00DED630 /* User.swift in Sources */,
 				EAC539CB28A25AB000366599 /* Hater.swift in Sources */,
 				EAC5399928A25A7300366599 /* SceneDelegate.swift in Sources */,
 				EAC539D028A4CCE500366599 /* Converter.swift in Sources */,
@@ -280,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAC539D528A4CD1900366599 /* ConverterTests.swift in Sources */,
+				EA50A1DF28BB372000DED630 /* CreateTestUserTests.swift in Sources */,
 				EAC539AE28A25A7500366599 /* Your_first_testTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
